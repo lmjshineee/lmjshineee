@@ -1,0 +1,33 @@
+name: Update Signature
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天UTC时间0点运行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 生成随机签名
+        run: |
+          # 随机选择一句签名
+          SIGNATURES=(
+            "『 I'm rooted, but I flow. 』"
+            "「 Tomorrow is a new sea. 」"
+            " Moon phases, not mistakes. "
+          )
+          RANDOM_SIGNATURE=${SIGNATURES[$RANDOM % ${#SIGNATURES[@]}]}
+          echo "NEW_SIGNATURE=$RANDOM_SIGNATURE" >> $GITHUB_ENV
+
+      - name: 更新README
+        run: |
+          # 替换README中的签名占位符
+          sed -i "s/{{ SIGNATURE }}/$NEW_SIGNATURE/g" README.md
+
+      - name: 提交更改
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Auto-Update: 每日签名更新"
