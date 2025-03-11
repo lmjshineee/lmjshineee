@@ -1,5 +1,5 @@
 ## Hi there 👋
-{{ SIGNATURE }}
+「 Tomorrow is a new sea. 」
 ![](https://github.com/lmjshineee/lmjshineee/blob/output/github-contribution-grid-snake.svg)
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
