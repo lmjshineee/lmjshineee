@@ -1,5 +1,5 @@
 ## Hi there 👋
-「 Tomorrow is a new sea. 」
+=={{ SIGNATURE }}==
 ![](https://github.com/lmjshineee/lmjshineee/blob/output/github-contribution-grid-snake.svg)
 
 ### 
@@ -9,5 +9,5 @@
 </div>
 
 ### 
-- 🔭 I’m currently studying at Hefei University of Technology.
-- 🌱 I’m currently learning Machine Learning, OpenCV. 
+- 🔭 I’m currently studying at HFUT.
+- 🌱 I’m currently learning DL, CV. 
