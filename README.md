@@ -1,5 +1,5 @@
 ## Hi there 👋
-=={{ SIGNATURE }}==
+== {{ SIGNATURE }} ==
 ![](https://github.com/lmjshineee/lmjshineee/blob/output/github-contribution-grid-snake.svg)
 
 ### 
