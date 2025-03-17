@@ -1,6 +1,6 @@
 ## Hi there 👋
 「 Tomorrow is a new sea. 」
-![](https://github.com/lmjshineee/lmjshineee/blob/output/github-contribution-grid-snake.svg)
+![](https://github.com/lmjshineee/lmjshineee/blob/output/github-contribution-snake.svg)
 
 ### 
 <div align="center">
